@@ -1,0 +1,61 @@
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-weight:bold;
+}
+#box-principal{
+    width: 800px; ;
+    height: 800px;
+  display: flex;
+  flex-direction: column; 
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(228, 228, 228);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#enviar{
+    background-color: rgb(25, 196, 39);
+    font-weight:bold;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#enviar:hover {
+  background-color: rgb(14, 141, 24);
+}
+#cancelar{
+    background-color: rgb(216, 23, 23);
+    font-weight:bold;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#cancelar:hover {
+    background-color: rgb(170, 18, 18);
+}
+#alterar{
+    background-color: rgb(163, 154, 154);
+    font-weight:bold;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#alterar:hover{
+    background-color: rgb(145, 136, 136); 
+}
+#botoes{
+    padding-top: 10px;padding-right: 10px;padding-bottom: 10px;
+}
