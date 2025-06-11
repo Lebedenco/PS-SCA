@@ -303,7 +303,7 @@ class State {
    * @param {Student} student Novo valor para o estado atual dos campos do modal de aluno.
    */
   setInputsValues = (student) => {
-    this.studentModalLabel.value = student.ra;
+    this.studentModalLabel.value = student.id;
     this.studentModalNameInput.value = student.name;
     this.studentModalCpfInput.value = student.cpf;
     this.studentModalBirthdayInput.valueAsDate = new Date(student.birthday);
