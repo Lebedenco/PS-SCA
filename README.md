@@ -1,5 +1,5 @@
-# SCA - Sistema de Controle Acadêmico
-> Bacharelado em Engenharia de Software | UNOESTE - FIPP | Processos de Software
+# [SCA - Sistema de Controle Acadêmico](https://lebedenco.github.io/PS-SCA/src/public/index.html)
+Bacharelado em Engenharia de Software | UNOESTE - FIPP | Processos de Software
 
 ## Resumo
 Este sistema trata-se de uma atividade proposta na disciplina de Processos de Software, ministrada pela professora Tamiris Fernanda, referente ao 1º semestre de 2025 e aos módulos 3 e 4.
