@@ -55,6 +55,53 @@
       </div>
     </nav>
     <main class="container mt-4">
+      <h2 class="text-center mb-4">Módulo de Matrícula</h2>
+
+      <div class="card p-4 mb-4">
+        <h5 class="mb-3">Efetuar Matrícula</h5>
+        <div class="mb-3">
+          <label for="idAluno" class="form-label">ID do Aluno</label>
+          <input type="number" class="form-control" id="idAluno">
+        </div>
+        <div class="mb-3">
+          <label for="nomeAluno" class="form-label">Nome do Aluno</label>
+          <input type="text" class="form-control" id="nomeAluno">
+        </div>
+        <div class="mb-3">
+          <label for="disciplina" class="form-label">Disciplina</label>
+          <input type="text" class="form-control" id="disciplina">
+        </div>
+        <button id="btnMatricular" class="btn btn-success">Efetuar Matrícula</button>
+      </div>
+  
+      <div class="card p-4 mb-4">
+        <h5 class="mb-3">Buscar ou Cancelar Matrícula</h5>
+        <input type="text" class="form-control mb-3" id="buscaNome" placeholder="Digite um nome para buscar...">
+        <button class="btn btn-primary mb-3" onclick="ordenarPorNome()">Ordenar por Nome</button>
+      </div>
+  
+      <div id="mensagem" class="text-center fw-bold mb-3"></div>
+  
+      <h5 class="mb-3">Matrículas Ativas</h5>
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Disciplina</th>
+            <th>Data/Hora</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaMatriculas"></tbody>
+      </table>
+  
+      <div class="text-center mt-4">
+        <a href="index.html" class="btn btn-outline-secondary">← Voltar ao Menu</a>
+      </div>
+    </div>
+  
+    <script src="matricula.js"></script>
       <!-- Conteúdo principal aqui -->
     </main>
   </body>
@@ -68,4 +115,5 @@
     integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
     crossorigin="anonymous"
   ></script>
+  <script src="../js/matriculas.js"></script>
 </html>

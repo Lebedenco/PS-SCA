@@ -15,6 +15,7 @@
       integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="../public/css/despesa.css">
   </head>
 
   <body>
@@ -55,7 +56,34 @@
       </div>
     </nav>
     <main class="container mt-4">
-      <!-- Conteúdo principal aqui -->
+      <div id="box-principal">
+        <div id="titulo"><h1>Gerenciador de despesas</h1></div>
+        <form action="" method="post">
+
+              <label for="nome-despesa">Digite o nome da despesa:</label>
+              <input type="text" id="nome-despesa" name="nome-despesa">
+
+              <label for="tipo-de-despesa">Qual é o tipo da despesa:</label>
+              <select name="tipo-de-despesa" id="tipo-de-despesa">
+                <option value="null"></option>
+                <option value="ativa">Em aberto</option>
+                <option value="fechada">Debitada</option>
+              </select>
+
+              <label for="data">Qual a data de criação da despesa:</label>
+              <input type="date" name="data" id="data">
+
+              <label for="valor-despesa">Qual é o valor monetário:</label>
+              <input type="text" id="valor-despesa" name="valor-despesa" placeholder="R$0.00">
+            
+              <div id="botoes">
+                <button id="enviar" type="submit">Enviar</button>
+                <button id="alterar">Alterar</button>
+                <button id="cancelar"type="reset">Cancelar</button>
+              </div>
+
+        </form>
+      </div>
     </main>
   </body>
   <script

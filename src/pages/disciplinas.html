@@ -55,6 +55,49 @@
       </div>
     </nav>
     <main class="container mt-4">
+      <div class="container mt-5">
+        <h2 class="text-center mb-4">Gerenciar Disciplinas</h2>
+    
+        <div class="card p-4 mb-4">
+          <h5 class="mb-3">Cadastrar / Editar Disciplina</h5>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome da Disciplina</label>
+            <input type="text" class="form-control" id="nome">
+          </div>
+          <div class="mb-3">
+            <label for="codigo" class="form-label">Código</label>
+            <input type="text" class="form-control" id="codigo">
+          </div>
+          <div class="mb-3">
+            <label for="carga" class="form-label">Carga Horária</label>
+            <input type="number" class="form-control" id="carga">
+          </div>
+          <div class="mb-3">
+            <label for="pre" class="form-label">Pré-requisitos (códigos separados por vírgula)</label>
+            <input type="text" class="form-control" id="pre">
+          </div>
+          <div class="mb-3">
+            <label for="limite" class="form-label">Quantidade Máxima de Alunos</label>
+            <input type="number" class="form-control" id="limite">
+          </div>
+          <button id="btnSalvar" class="btn btn-success">Salvar</button>
+          <button id="btnAtualizar" class="btn btn-primary d-none">Atualizar</button>
+        </div>
+    
+        <div id="mensagem" class="text-center fw-bold mb-3"></div>
+    
+        <h5 class="mb-3">Disciplinas Cadastradas</h5>
+        <table class="table table-bordered table-striped" id="tabela">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Código</th>
+              <th>Carga</th>
+              <th>Pré-requisitos</th>
+              <th>Limite</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
       <!-- Conteúdo principal aqui -->
     </main>
   </body>
@@ -68,4 +111,5 @@
     integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
     crossorigin="anonymous"
   ></script>
+  <script src="../js/disciplinas.js"></script>
 </html>
