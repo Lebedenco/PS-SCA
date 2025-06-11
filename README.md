@@ -18,15 +18,16 @@ O SCA terá como finalidade gerenciar a matrícula de alunos e mensalidades nos 
 > 
 > As funções para as quais serão desenvolvidas as telas estão listadas a seguir:
 > 
-> RF_B1 - Gerenciar Aluno
-> RF_B2 - Gerenciar tipos de despesas
-> RF_B3 - Gerenciar disciplinas
+> - RF_B1 - Gerenciar Aluno
+> - RF_B2 - Gerenciar tipos de despesas
+> - RF_B3 - Gerenciar disciplinas
+> <br />
 > 
-> RF_F1 - Efetuar matrícula
-> RF_F2 - Atualizar vagas
-> RF_F3 - Montar turmas
-> RF_F4 - Gerar Horários de aulas
-> RF_F5 - Cancelar matrícula
+> - RF_F1 - Efetuar matrícula
+> - RF_F2 - Atualizar vagas
+> - RF_F3 - Montar turmas
+> - RF_F4 - Gerar Horários de aulas
+> - RF_F5 - Cancelar matrícula
 
 ---
 
