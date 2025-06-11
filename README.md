@@ -14,7 +14,7 @@ O SCA terá como finalidade gerenciar a matrícula de alunos e mensalidades nos 
 - [Luiz Gustavo Batista Cavalcante](https://github.com/LUIZGCAVALCANTE)
 
 ## Proposta
-> Organizem, entre os membros do grupo/equipe, as tarefas que irão desempenhar (como definição de layout, definição dos campos necessários para cada tela), com base no que foi apresentado anteoriormente. Deve conter uma tela de menu, que chame as telas das outras funções.
+> Organizem, entre os membros do grupo/equipe, as tarefas que irão desempenhar (como definição de layout, definição dos campos necessários para cada tela), com base no que foi apresentado anteriormente. Deve conter uma tela de menu, que chame as telas das outras funções.
 > 
 > As funções para as quais serão desenvolvidas as telas estão listadas a seguir:
 > 
